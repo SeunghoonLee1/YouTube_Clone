@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  height: 4rem;
+  padding: 0.8em 1em;
+  /* align-items: center; */
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.img {
+  margin-left: 1em;
+  line-height: 0.5em;
+}
+
+.title {
+  font-size: 2em;
+  margin-right: 0.7em;
+}
+
+.searchBox {
+  font-size: 1.9rem;
+  flex-basis: 100%;
+  outline: 0;
+}
+
+.searchBtn {
+  background-color: darkgray;
+  outline: 0;
+}
+
+.buttonImg {
+  padding: 0.5em 0.2em;
+  height: 100%;
+}
