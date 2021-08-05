@@ -4,10 +4,10 @@ import styles from './search_header.module.css';
 const SearchHeader = ((props) => {
   const inputRef = React.useRef();
   
-  const onSubmit = (event) => {
-    event.preventDefault();
-    const searchWord = inputRef.current.value;
-  };
+  // const onSubmit = (event) => {
+  //   event.preventDefault();
+  //   const searchWord = inputRef.current.value;
+  // };
 
   const handleSearch = ()=>{
     const value = inputRef.current.value;

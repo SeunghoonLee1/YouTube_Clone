@@ -3,7 +3,7 @@ import styles from './video_item.module.css';
 
 
 const VideoItem = (props) => (
-
+  
   <li className={styles.container}>
     <div className={styles.video}>
       <img className={styles.thumbnail} 
@@ -16,6 +16,7 @@ const VideoItem = (props) => (
       </div>
     </div>
   </li>
+
   );
 
 export default VideoItem;
