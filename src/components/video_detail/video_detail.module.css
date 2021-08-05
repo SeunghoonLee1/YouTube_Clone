@@ -1,0 +1,8 @@
+.detail {
+  padding: 0.2em;
+}
+
+/* 이게없으면 pre tag때문에 옆으로 쭈욱~ 길게 늘어진다! */
+.description {
+  white-space: pre-wrap;
+}

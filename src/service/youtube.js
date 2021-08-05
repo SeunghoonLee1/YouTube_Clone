@@ -1,3 +1,4 @@
+//기존의 app.jsx에서 API를 사용해 네트워크 통신하는 부분은 여기로 따로 빼주기!
 class Youtube{
   constructor(key){
     this.key = key;
