@@ -7,11 +7,11 @@
 }
 
 .detail {
-  flex: 1 1 70%;
+  flex: 1 1 70%; /*flex grow : flex shrink : flex basis*/
 }
 
 .list {
-  flex: 1 1 30%;
+  flex: 1 1 30%; /*flex grow : flex shrink : flex basis*/
 }
 
 @media screen and (max-width: 700px) {
