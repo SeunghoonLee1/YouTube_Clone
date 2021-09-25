@@ -3,7 +3,6 @@ import styles from './search_header.module.css';
 
 const SearchHeader =  memo(((props) => {
     const inputRef = React.useRef();
-
     // const onSubmit = (event) => {
     //   event.preventDefault();
     //   const searchWord = inputRef.current.value;
