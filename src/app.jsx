@@ -5,7 +5,7 @@ import SearchHeader from './components/search_header/search_header';
 import VideoDetail from './components/video_detail/video_detail';
   
 function App({youtube}) {
-  const [videos, setVideos] = useState([]); //function에서 state사용할 때
+  const [videos, setVideos] = useState([]); //function에서 state사용할 때. videos initial val : [] empty list.
   const [selectedVideo, setSelectedVideo] = useState(null);
   
   const selectVideo = (video) =>{
